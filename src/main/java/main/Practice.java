@@ -37,15 +37,17 @@ public class Practice {
      */
 
     public static int getShieldPower(String shipClass) {
-        switch (shipClass) {
-            case "Interpid":
+        switch (shipClass){
+            case "Intrepid":
                 return 100;
-            case  "Nova":
+            case "Nova":
                 return 200;
             case "Raven":
                 return 300;
             case "Galaxy":
-                return  500;
+                return 500;
+            case "Dreadnought":
+                return 800;
             default:
                 return 0;
 
@@ -70,6 +72,9 @@ public class Practice {
      * @return az elvárt szint
      */
     public static double countRequirement(int[] scores) {
+
+
+
         return 0.0;
     }
 
