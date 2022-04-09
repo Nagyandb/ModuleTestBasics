@@ -139,7 +139,14 @@ public class Practice {
      * @return a megrendelés teljesítéséhez szükséges napok száma
      */
     public static int getSpaceRabbitDays(int startRabbitValue, int requiredRabbits) {
-        return -1;
+
+        int dayConuter = 0;
+
+        for (int i = 1; i < requiredRabbits; i++) {
+            requiredRabbits = startRabbitValue *2;
+            dayConuter++;
+        }
+        return dayConuter;
     }
 
     /**
