@@ -192,11 +192,15 @@ public class Practice {
      */
     public static int countVictories(int[] battles) {
 
-        for (int i = 0; i < battles.length; i++) {
+        int battlesWon  = 0;
 
+        for (int i = 0; i < battles.length; i++) {
+            if (battles[i] > 0) {
+                battlesWon++;
+            }
         }
 
-        return -1;
+        return battlesWon;
     }
 
     /**
