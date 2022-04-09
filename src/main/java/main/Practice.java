@@ -291,8 +291,23 @@ public class Practice {
      */
     public static int getWorstMonthIndex(int[][] lossesPerMonths) {
 
-        
-        return -1;
+        int loss = 0;
+        int temp = 0;
+        int monthOfDeath = 0;
+
+        for (int i = 0; i < lossesPerMonths.length; i++) {
+            for (int j = 0; j < lossesPerMonths[i].length; j++) {
+                    temp += lossesPerMonths[i][j];
+                }
+
+                if (temp > loss) {
+                    loss = temp;
+                    monthOfDeath = i;
+                }
+            }
+
+
+        return monthOfDeath;
     }
 
     /**
