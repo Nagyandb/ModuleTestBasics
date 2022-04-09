@@ -250,7 +250,15 @@ public class Practice {
      * @return az eredeti üzenet karakterei fordított sorrendben
      */
     public static char[] reverseMessage(char[] message) {
-        return null;
+        char[] reverse = message;
+
+        for (int i = 0; i < reverse.length / 2; i++) {
+            char temp = reverse[i];
+            reverse[i] = reverse[reverse.length - 1 - i];
+            reverse[reverse.length - 1 - i] = temp;
+        }
+
+        return reverse;
     }
 
     /**
