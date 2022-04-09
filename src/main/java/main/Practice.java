@@ -35,8 +35,22 @@ public class Practice {
      * @param shipClass az űrhajó osztálya
      * @return a pajzs ereje
      */
+
     public static int getShieldPower(String shipClass) {
-        return -1;
+        switch (shipClass) {
+            case "Interpid":
+                return 100;
+            case  "Nova":
+                return 200;
+            case "Raven":
+                return 300;
+            case "Galaxy":
+                return  500;
+            default:
+                return 0;
+
+        }
+
     }
 
     /**
