@@ -47,13 +47,13 @@ public class Theorem {
         numbers[10] -- erre megkapnánk a fenti hibaüzenetet.
 
         Léteznek többdimenziós tömbök is, vagyis egy tömbben lehet több masik is. Ha például veszünk egy kétdimenziós
-        tömböt, az sorokból és oszlopokból áll.
+        tömböt, az sorokból és oszlopokból áll. A létrehozásnál a sorok számát meg kell adni, de az oszlopokét nem.
         Ennek képlete például:
         int numbersDimension[][] =  new int[3][8]
 
 
-        Itt például a tömb harmadik sorát ami a második indexen található, adtuk meg, és annak az utolsó, hetedik indexen levő
-        elemét
+        Itt például a tömb harmadik sorát ami a második indexen található, adtuk meg, és annak az utolsó, hetedik indexen
+        levő elemét
         int elementOfArray = nubemrsDimension[2][7]
 
 
