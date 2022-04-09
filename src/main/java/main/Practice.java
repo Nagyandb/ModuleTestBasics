@@ -140,13 +140,13 @@ public class Practice {
      */
     public static int getSpaceRabbitDays(int startRabbitValue, int requiredRabbits) {
 
-        int dayConuter = 1;
+        int dayCounter = 1;
 
         while (startRabbitValue < requiredRabbits) {
             startRabbitValue *= 2;
-            dayConuter++;
+            dayCounter++;
         }
-        return dayConuter;
+        return dayCounter;
     }
 
     /**
@@ -165,6 +165,8 @@ public class Practice {
      * @return a teljes sereg száma
      */
     public static int sumArmy(int[] armyOfPlanets) {
+
+
         return -1;
     }
 
