@@ -52,7 +52,6 @@ public class Practice {
                 return 0;
 
         }
-
     }
 
     /**
@@ -166,8 +165,14 @@ public class Practice {
      */
     public static int sumArmy(int[] armyOfPlanets) {
 
+        int armyNum = 0;
 
-        return -1;
+        for (int i = 0; i < armyOfPlanets.length; i++) {
+            armyNum += armyOfPlanets[i];
+
+        }
+
+        return armyNum;
     }
 
     /**
@@ -186,6 +191,11 @@ public class Practice {
      * @return a megnyert csaták darabszáma
      */
     public static int countVictories(int[] battles) {
+
+        for (int i = 0; i < battles.length; i++) {
+
+        }
+
         return -1;
     }
 
