@@ -296,6 +296,7 @@ public class Practice {
         int monthOfDeath = 0;
 
         for (int i = 0; i < lossesPerMonths.length; i++) {
+            temp = 0;
             for (int j = 0; j < lossesPerMonths[i].length; j++) {
                     temp += lossesPerMonths[i][j];
                 }
