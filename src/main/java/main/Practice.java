@@ -98,14 +98,16 @@ public class Practice {
     public static boolean isShipAbleToFight(int shieldCharge, int weaponCharge) {
         boolean isFightable = false;
 
-        double atlagDefense = (double) ((shieldCharge + weaponCharge) /2);
+        double atlagDefense = (double)(shieldCharge + weaponCharge) /2;
 
         isFightable = (shieldCharge >= 20 && weaponCharge >= 20 && atlagDefense > 50);
 
         if (isFightable) {
             return true;
         } else {
-        }return false;
+
+        }
+        return false;
     }
 
     /**
