@@ -96,6 +96,8 @@ public class Practice {
      * @return a hajó harcképes-e
      */
     public static boolean isShipAbleToFight(int shieldCharge, int weaponCharge) {
+
+
         return false;
     }
 
