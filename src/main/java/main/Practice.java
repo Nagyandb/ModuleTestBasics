@@ -217,9 +217,15 @@ public class Practice {
      * @param heights a kadétok magassága
      */
     public static boolean isInAscendingOrder(int[] heights) {
+        boolean rendezett = true;
 
+        for (int i = 0; i < heights.length - 1; i++) {
+            if (heights[i] > heights[i + 1]) {
+                return false;
+            }
+        }
 
-        return false;
+        return true;
     }
 
     /**
