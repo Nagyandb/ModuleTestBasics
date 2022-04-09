@@ -300,7 +300,6 @@ public class Practice {
             for (int j = 0; j < lossesPerMonths[i].length; j++) {
                     temp += lossesPerMonths[i][j];
                 }
-
                 if (temp > loss) {
                     loss = temp;
                     monthOfDeath = i;
