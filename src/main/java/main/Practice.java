@@ -72,10 +72,10 @@ public class Practice {
      * @return az elvárt szint
      */
     public static double countRequirement(int[] scores) {
+        int sum = scores[0] + scores[scores.length - 1];
 
-
-
-        return 0.0;
+        double atlag = (double) sum /2;
+        return atlag;
     }
 
     /**
