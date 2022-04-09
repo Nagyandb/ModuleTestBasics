@@ -140,10 +140,10 @@ public class Practice {
      */
     public static int getSpaceRabbitDays(int startRabbitValue, int requiredRabbits) {
 
-        int dayConuter = 0;
+        int dayConuter = 1;
 
-        for (int i = 1; i < requiredRabbits; i++) {
-            requiredRabbits = startRabbitValue *2;
+        while (startRabbitValue < requiredRabbits) {
+            startRabbitValue *= 2;
             dayConuter++;
         }
         return dayConuter;
